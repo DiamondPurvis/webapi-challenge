@@ -26,13 +26,19 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+    - convenience helpers and routing
+
 - [ ] Describe Middleware?
+    - It is basically a type of software that stands in between applications and operating systems. It is almost like an invisible layer filled with things that communicate and enable data.
 
 - [ ] Describe a Resource?
+    - any type of source that resembles data that can be called by api points.
 
 - [ ] What can the API return to help clients know if a request was successful?
+    - it can return a success message
 
 - [ ] How can we partition our application into sub-applications?
+    - you would use epress router and use a seperate route handle.
 
 ## Project Setup
 
@@ -109,3 +115,4 @@ Now that we have a way to add, update, remove and retrieve data from the provide
 - From the React application show a list of all _projects_ using the API you built.
 - Add functionality to show the details of a project, including its actions, when clicking a project name in the list. Use React Router to navigate to a separate route to show the project details.
 - Add styling! Perhaps with [`styled-components`](https://www.styled-components.com/).
+start
